@@ -1,0 +1,101 @@
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+body{
+    overflow: hidden;
+    background-color: rgb(4, 2, 2);
+    display: flex;
+   
+}
+
+.top{
+    width: 100%;
+    min-height: 100vh;
+    display: inline;
+    
+    
+
+}
+nav{
+
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    background-color: transparent;
+}
+ .navg{
+    display: flex;
+    margin-left: 25cm;
+ }
+ .navg li{
+    list-style: none;
+    margin :0 15px;
+ }
+ .navg li a{
+    font-size: 25px;
+    color: rgb(255, 250, 250);
+    letter-spacing: 3px;
+    text-decoration: none;  
+ }
+ .navg li a:hover
+ {
+    color: rgb(34, 249, 56);
+ }
+.wel{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    overflow: hidden;
+  
+}
+.cols{
+    width:50%;
+}
+.topline{
+    display: block;
+    position: relative;
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: rgb(255, 252, 252);
+}
+.heading{
+    color :rgb(22, 174, 24)
+}
+button{
+ background-color: rgb(243, 235, 235);
+font-size: medium;
+padding:10px 10px;
+cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+    color: rgb(2, 4, 6);
+}
+button :hover{
+    color: rgb(4, 255, 38);
+    text-decoration: none; 
+}
+.d{
+    color: aliceblue;
+}
+.moon {
+    width: 15px;
+    height: 150px;
+    border-radius: 50%;
+    color: rgb(33, 212, 42);
+    display: flex;
+    box-shadow: 15px 15px 0 0 rgb(17, 243, 17);
+  }
+  
+  
+

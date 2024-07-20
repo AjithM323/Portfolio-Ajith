@@ -1,0 +1,84 @@
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+   
+}
+#abt{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+#side1
+{
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    position: relative;
+    left:12%;
+    align-items:center ;
+    
+    
+}
+#S1{
+    font-size: 20px;
+    padding: 20% 20%;
+    display: flex; 
+
+}
+
+.myself
+{
+    width: 80vh;
+    height: 50vh;
+    background-color: rgb(149, 233, 241);
+    border-radius: 10%;
+     margin-left: 30%;
+    margin-top: 5%;
+      
+}
+
+.para{
+    padding: 10%;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 3px;
+    text-decoration: none;
+    list-style:circle;
+}
+p{
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+H1{
+    
+    color: aliceblue;
+    width: 5cm;
+    height: 7%;
+    
+    
+    
+}
+p{
+    letter-spacing: 3%;
+}
+.btn
+{
+margin-left :260px;
+margin-top: 20px;
+
+}
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
