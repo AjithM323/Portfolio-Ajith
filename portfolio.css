@@ -8,30 +8,30 @@
 body{
     overflow: hidden;
     background-color: rgb(4, 2, 2);
-    display: flex;
+    display: flex;   
    
 }
 
 .top{
     width: 100%;
-    min-height: 100vh;
+    min-height: fit-content;
     display: inline;
     
-    
-
 }
 nav{
 
     display: flex;
-    width: 100%;
+    flex-direction: row;
     justify-content: space-around;
     height: 80px;
     line-height: 80px;
     background-color: transparent;
+    
 }
  .navg{
     display: flex;
     margin-left: 25cm;
+    
  }
  .navg li{
     list-style: none;
@@ -88,14 +88,7 @@ button :hover{
 .d{
     color: aliceblue;
 }
-.moon {
-    width: 15px;
-    height: 150px;
-    border-radius: 50%;
-    color: rgb(33, 212, 42);
-    display: flex;
-    box-shadow: 15px 15px 0 0 rgb(17, 243, 17);
-  }
+
   
   
 
