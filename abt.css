@@ -1,84 +1,146 @@
-
-
 body{
-    background-color: rgb(0, 0, 0);
-    height: 100%;
-   
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
 }
-#abt{
+.container1
+{
     align-items: center;
     justify-content: center;
-    padding: 10px;
     display: flex;
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
+    flex-wrap: wrap;
+}
+.head{
+    color: rgb(169, 237, 59);
     font-size: 50px;
-}
-#side1
-{
-    height: 100px;
-    width: 100px;
-    background-color: aliceblue;
-    border-radius: 50%;
-    position: relative;
-    left:12%;
-    align-items:center ;
-    
-    
-}
-#S1{
-    font-size: 20px;
-    padding: 20% 20%;
-    display: flex; 
-
-}
-
-.myself
-{
-    width: 80vh;
-    height: 50vh;
-    background-color: rgb(149, 233, 241);
-    border-radius: 10%;
-     margin-left: 30%;
-    margin-top: 5%;
-      
-}
-
-.para{
-    padding: 10%;
+    justify-content: center;
     align-items: center;
-    text-align: justify;
-    letter-spacing: 3px;
-    text-decoration: none;
-    list-style:circle;
-}
-p{
-    font-size: 100%;
+    display: flex;
     font-family: 'Times New Roman', Times, serif;
-    letter-spacing: 1px;
-}
-H1{
-    
-    color: aliceblue;
-    width: 5cm;
-    height: 7%;
-    
-    
-    
 }
 p{
-    letter-spacing: 3%;
+    color: aliceblue;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
 }
-.btn
+.abt_txt
 {
-margin-left :260px;
-margin-top: 20px;
+    width:550px;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.icon
+{
+    padding: 100px 0px;
+    margin: 10%;
+}
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.abt
+{
+ background-color: rgb(170, 234, 117);
+ border-radius:10px;
+ width: 200px;
+ height: 50px;
+ align-items: center;
+ justify-content: center;
+ font-size: 25px;
+ font-family: 'Times New Roman', Times, serif;
+ display: flex;
+ transition: 0.3s ease;
+}
+.abt:hover
+{
+    transform: translateY(-10px);
+    
+}
+
+.sub
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
 
 }
-.content {
-    padding: 0 18px;
+.pro
+{
+    width: 500px;
+    height: 200px;
+    margin-left: 15%;
+    font-size: 25px;
+    background-color: rgb(250, 250, 250);
+    border: 6px solid rgb(164, 246, 93);
     display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
-  }
+       
+}
+.pro1
+{
+    background-color: rgb(170, 255, 151);
+    border: 3px solid rgb(7, 12, 12);
+    align-items: center;
+    width: 490px;
+    height: 70px;
+    justify-content: center;
+    display: flex;
+
+}
+.pro h2:hover{
+    color: rgb(245, 253, 234);
+}
+.logo
+{ 
+ height: 50px;
+ width: px;
+ float: left;
+ margin-right: 50px;
+ border: 50px black;
+}
+.pro h2{
+    color: rgb(1, 1, 1);
+    font-family: 'Times New Roman', Times, serif;
+}
+#pre
+{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+
+.cert
+{
+    width: 450px;
+    height: 200px;
+    font-size: 20px;
+    background-color: rgb(178, 254, 134);
+    display: none;  
+    color: rgb(3, 3, 4);
+
+}
+
+.cert h2 :hover
+{
+    color: greenyellow;
+   
+}
+.cert_temp
+{
+    background-color: rgb(164, 246, 96);
+    border: 3px solid rgb(7, 12, 12);
+    align-items: center;
+    width: 490px;
+    height: 70px;
+    justify-content: center;
+    display: flex;
+    
+
+    
+}
+
+
 

@@ -11,11 +11,7 @@
             @import url('https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css');
         </style>
     </head>
-        <script>
-            function project() {
-                window.location.replace(
-                    "https://www.geeksforgeeks.org");
-            }
+        <script src="about.js">
         </script>
     </head>
     <body>
@@ -23,20 +19,43 @@
         <div class="container1">
           <div class ="abt_txt">
            <p>
-            I am currently pursuing my B.Tech. degree in the stream of "Computer Science and Business Systems" at Kalaignar Krishnanidhi Institute of Technology in Coibatore.
-            And I am from the Nilgiris. I completed my schooling at Stanes Anglo Indian Higher Secondary School, which is located in my native Coonoor.
-            I am interested in designing, and I have enhanced my coding skills by practicing code chief, leet code, and hakkerrank.
+            I am currently pursuing a B.Tech. degree in Computer Science and Business Systems at the Kalaignar Karunanidhi Institute of Technology in Coimbatore.  
+            I hail from the Nilgiris and completed my schooling at Stanes Anglo Indian Higher Secondary School in my hometown, Coonoor. I have a keen interest in
+            designing and have honed my coding skills through platforms like CodeChef, LeetCode, and HackerRank, also interested to manage and organize things .
            </p>
         </div>
+      
+        <div id="pro" class="pro">
+            <div class="pro1">
+                <img src="pre_calc.jpg" class="logo"><a  href="https://drive.google.com/file/d/1Lkh0_YVrKQXUfsPYbiDUCiWPkfJCLvIU/view?usp=sharing"><h2 >Insurance Premium Calculatore</h2></a> 
+            </div>
+
+            <p id="pre">The website is based on the insurance companies. The main objective of the web application is to make the user free of his decision where he can compare the premiums of different insurance companies. 
+                All the insurance company has a official website were the user can calculate the premium and known the policies based on their salary, age etc. But it is hard to visit all the insurance companies individually. 
+                So we have developed a website with the data of top five company by calculating their premiums .</p> 
+           </div>
        </div>
-    <section class="icon">
+
+       <div class="cert" id="cert">
+        <div class="cert_temp" id="c">
+            <img src="c.png" class="logo"><a href="https://drive.google.com/file/d/1NtrRX6s3XaJFzH01ySfyQExZyrIHMrRC/view?usp=sharing"><h2>Introduction to C programming in Nptel</h3></a></div> 
+        <div class="cert_temp" id="agile">
+            <img src="agile.jpg" class="logo"><a href="https://drive.google.com/file/d/1rTNfuCHy-mmp6VXQUGb2EbJbi_yD1ev3/view?usp=sharing"><h3>Agile Scrum certification in Spring board</h3></a></div> 
+        <div class="cert_temp" id="ai">
+            <img src="ai.png" class="logo"><a href="https://drive.google.com/file/d/1OYWTgYBngSsDN-5Kji6lqav-cIC7gWak/view?usp=sharing"><h3>Introduction to Artificial Intelligence</h3></a></div>
+
+       </div>
+
+  <section class="icon">
+
    <div class="container">
+    
     <div class="abt">
-     <h2 class="sub"> PROJECTS</h2> 
+     <h2 class="sub" onclick="project()"> PROJECTS</h2> 
     </div>
-    <BR>
+
     <div class="abt">
-     <h2 class="sub"> CERTIFICATES</h2>
+     <h2 class="sub" onclick="cert()" > CERTIFICATES</h2>
     </div>
 </div>
 </section>
