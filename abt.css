@@ -2,6 +2,7 @@ body{
     background-color: black;
     font-family: 'Times New Roman', Times, serif;
     margin:0%;
+    overflow-x: hidden;
 }
 .container1
 {
@@ -79,10 +80,8 @@ p{
     animation-duration: 2s;
     animation-name:slide-in-left;
     
+    
 } 
-
-
- 
 .pro1
 {
     background-color: rgba(138, 212, 250, 0.655);
@@ -94,22 +93,13 @@ p{
     & h2{
        font-size: 30px;
     } 
+}
     
-} 
-#pro h2:hover{
-    color: rgb(245, 253, 234);
-}
-#pr
-.pro h2{
-    color: rgb(1, 1, 1);
-    font-family: 'Times New Roman', Times, serif;
-}
-#pre
+.title
 {
-    font-size: 15px;
-    color: rgb(0, 0, 0);
+  background-color: blueviolet;
+  size: 20px;
 }
-
 .certf
 {
     width: 100vm;
