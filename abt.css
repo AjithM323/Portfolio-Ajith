@@ -79,52 +79,31 @@ p{
 {
     animation-duration: 2s;
     animation-name:slide-in-left;
-    
-    
+       
 } 
-.pro1
-{
-    background-color: rgba(138, 212, 250, 0.655);
-    align-items: center;
-    height: 10vh;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    & h2{
-       font-size: 30px;
-    } 
-}
     
 .title
 {
   background-color: blueviolet;
-  size: 20px;
+  
 }
-.certf
-{
-    width: 100vm;
-    height: 50vh;
-    margin: 7%;
-    background-color: #fbfbfb;
-    display:inline;
+#certf{
     
-}
-#c
-{
-    color: rgb(80, 227, 234);
-}
-.cet
-{
-    width: 30%;
-    height: 40%;
-    display: inline;
-}
-#cer
-{
-    margin-top: 0%;
     justify-content: center;
-    
+    align-items: center;
+    margin-top: 20px;
+
+   & img{
+    height:100px;
+    width: 100px;
+   } 
+   & h2{
+    padding: 10px ;
+   }
+
 }
+
+
  
   @keyframes slidein {
     from {
