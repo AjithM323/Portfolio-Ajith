@@ -1,35 +1,97 @@
-<html>
-    <head>
-        <title>contact</title>
-        <style>
-            body{
-                background-color: rgb(0, 0, 0);
-            }
-            h1{
-                color: rgb(132, 238, 91);
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                margin: 2%;
-            }
-            img{
-                width: 100px;
-                height: fit-content;
-                display: block;
-            }
-            #phone{
-                margin: 5%;
-            width: 200px;
-            height: fit-content;
-             color: aliceblue;
-             font-size: 25px;
-            }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Tree</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;  /* Align vertically */
+            height: 100vh;
+            margin: 0;
+        }
 
-        </style>
-    </head>
-    <body>
-        <h1>CONTACT</h1>
-        <div id="phone"><img src="phone.jpg" alt="not visible">6381034962</div>
-    </body>
-    
+        h1 {
+            font-size: 40px;
+            margin-bottom: 30px;
+            color: #333;
+            text-align: center;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            text-align: center;
+            width: 300px;
+        }
+
+        .link {
+            display: block;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+
+        .link:hover {
+            background-color: #45a049;
+        }
+
+        .link.phone {
+            background-color: #008CBA;
+        }
+
+        .link.phone:hover {
+            background-color: #007bb5;
+        }
+
+        .link.email {
+            background-color: #f39c12;
+        }
+
+        .link.email:hover {
+            background-color: #e67e22;
+        }
+
+        .link.github {
+            background-color: #333;
+        }
+
+        .link.github:hover {
+            background-color: #444;
+        }
+
+        .link.linkedin {
+            background-color: #0077b5;
+        }
+
+        .link.linkedin:hover {
+            background-color: #005f87;
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>Connect by</h1>
+
+<div class="container">
+    <a href="https://wa.me/6381034962" class="link phone">📞 Contact Me</a>
+    <a href="ajithm3223@gmail.com" class="link email">📧 Email Me</a>
+    <a href="https://www.linkedin.com/in/ajith-m-409bbb286/" class="link linkedin" target="_blank">🔗 LinkedIn</a>
+    <a href="https://github.com/AjithM323" class="link github" target="_blank">🐙 GitHub</a>
+</div>
+
+</body>
 </html>
