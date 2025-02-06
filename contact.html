@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Link Tree</title>
     <style>
+        /* General Styling */
         body {
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-direction: column;  /* Align vertically */
+            flex-direction: column;
             height: 100vh;
             margin: 0;
+            padding: 20px;
         }
 
         h1 {
@@ -29,7 +31,8 @@
             box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
             padding: 30px;
             text-align: center;
-            width: 300px;
+            width: 90%;
+            max-width: 400px; /* Adjust max width for larger screens */
         }
 
         .link {
@@ -48,38 +51,34 @@
             background-color: #45a049;
         }
 
-        .link.phone {
-            background-color: #008CBA;
-        }
+        .link.phone { background-color: #008CBA; }
+        .link.phone:hover { background-color: #007bb5; }
 
-        .link.phone:hover {
-            background-color: #007bb5;
-        }
+        .link.email { background-color: #f39c12; }
+        .link.email:hover { background-color: #e67e22; }
 
-        .link.email {
-            background-color: #f39c12;
-        }
+        .link.github { background-color: #333; }
+        .link.github:hover { background-color: #444; }
 
-        .link.email:hover {
-            background-color: #e67e22;
-        }
+        .link.linkedin { background-color: #0077b5; }
+        .link.linkedin:hover { background-color: #005f87; }
 
-        .link.github {
-            background-color: #333;
-        }
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 30px;
+            }
 
-        .link.github:hover {
-            background-color: #444;
-        }
+            .container {
+                width: 100%;
+                padding: 20px;
+            }
 
-        .link.linkedin {
-            background-color: #0077b5;
+            .link {
+                font-size: 16px;
+                padding: 12px;
+            }
         }
-
-        .link.linkedin:hover {
-            background-color: #005f87;
-        }
-
     </style>
 </head>
 <body>
@@ -92,7 +91,6 @@
     <a href="https://www.linkedin.com/in/ajith-m-409bbb286/" class="link linkedin" target="_blank">🔗 LinkedIn</a>
     <a href="https://github.com/AjithM323" class="link github" target="_blank">🐙 GitHub</a>
 </div>
-
 
 </body>
 </html>
